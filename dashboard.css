@@ -140,3 +140,59 @@ label .product{
      color: rgb(46, 44, 44);
      padding-right: 20px;
 }
+/* dashboard-banner */
+ .dashboard-banner{
+    height: 100%;
+    display: flex;
+    
+ }
+.dsh-board{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border-radius:  10px ;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+    padding: 30px 40px;
+}
+.font-dash h4{
+    font-size: 1rem;
+    color: rgb(56, 55, 55);
+    padding-bottom: 5px;
+}
+.font-dash h3{
+     font-size: 1.5rem;
+}
+.font-dash h6{
+    color: green;
+    font-size: 1.2rem;
+}
+.red-color h6{
+    color: red;
+}
+.dsh2-board{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border-radius:  10px ;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+    padding: 30px 40px;
+    margin-left: 10px;
+}
+.dsh3-board{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+     border-radius:  10px ;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+    padding: 30px 40px;
+    margin-left: 10px;
+}
+.dsh4-board{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border-radius:  10px ;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+    padding: 30px 40px;
+    margin-left: 10px;
+}
