@@ -103,7 +103,7 @@ color: #ccc;
 span{
   color: skyblue;
 }
-
+/* 
 .slide{
   height: 64px;
   width: 180px;
@@ -146,11 +146,11 @@ ul li :hover a{
   text-align: center;
 }
 input{
-  /* display: none; */
-  /* visibility: hidden; */
-  -webkit-appearance: none;
+  /* display: none; 
+   visibility: hidden; */
+  /* -webkit-appearance: none; */
 }
-.toggle{
+/* .toggle{
   position: absolute;
   height: 30px;
   width: 30px;
@@ -206,27 +206,25 @@ input:checked ~ .slide{
 transform: translateX(0);
 box-shadow: 0 0 15px rgba(0,0,0,0.5) ;
 }
-
-
+  */
 
 .section{
-    display: flex ;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
-    background-color: cornsilk;
-    padding: 49px 63px;
+    gap: 1.5rem;
+      padding: 49px 63px;
 
 }
-.hp0-sectoin{
-    background-image: url(abiut-image1.jpg);
-    background-size: cover;
-    height: 303px;
-    width: 100%;
-   border-radius: 15px;
+.row .hp0-sectoin{
+   flex: 1 1 45rem;
 }
-.hp-section{
-    padding: 20px;
+
+.row .hp0-sectoin img{
+  width: 100%;
+}
+.row .hp-section{
+   flex: 1 1 45rem;
     
 }
 
@@ -242,11 +240,7 @@ box-shadow: 0 0 15px rgba(0,0,0,0.5) ;
 }
 
 .hp1-sectoin{
-    background-image: url(abiut-image-2.jpg);
-    background-size: cover;
-    height: 303px;
-    width: 100%;
-   border-radius: 15px;
+   
 }
 
 /* Offer-customer */
@@ -328,10 +322,7 @@ box-shadow: 0 0 15px rgba(0,0,0,0.5) ;
     font-size: 1.2rem;
 }
 .hp2-sectoin{
-    background-image: url(abiut-image3.jpg);
-    background-size: cover;
-    height: 303px;
-    width: 100%;
+   
    border-radius: 15px;
 }
 /* footer */
@@ -458,8 +449,8 @@ body{
     text-align: center;
   }
   input{
-    /* display: none; */
-    /* visibility: hidden; */
+    display: none;
+    visibility: hidden;
     -webkit-appearance: none;
   
   }
